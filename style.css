@@ -5,11 +5,13 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 62.5%;
+	background-color: darkgray;
 }
 
 main {
 	width: 80%;
 	margin: 0 auto;
+	background-color: darkgray;
 }
 
 h1, h2 {
@@ -21,36 +23,10 @@ h1 {
 	font-size: 6em;
 }
 
-h2 {
-	font-size: 4em;
-	border-bottom: 1px solid grey;
-}
-
 p {
 	font-size: 2em;
 }
 
-.menu ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-
-.menu li {
-	display: inline;
-	font-size: 4em;
-	text-align: center;
-	padding-right: 20px;
-}
-
-.menu a {
-	text-decoration: none;
-	font-weight: 800;
-}
-
-.menu a:hover {
-	border-bottom: 4px solid grey;
-}
 
 article {
 	height: 100vh;
@@ -64,25 +40,37 @@ article {
 
 #score {
 	font-size: 2em;
-	border: 2px black dotted;
 }
 
-#upgradeOne, #upgradeTwo {
+.knapps {
 	font-size: 2em;
-	width:100px;
-	height:100px; 
+	width:150px;
+	height:150px; 
 	border-radius: 20px;
-	background-color: red;
-	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	margin-right: 0.5%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #upgradeOne{
- margin-left: 30%;
+	background-image: url("Bilder/upgBB.svg");
+	background-size: 100%;
+	
 }
 #upgradeTwo{
-	margin-left: 40%;
+	background-image: url("Bilder/upgCross.svg");
+	background-size: 100%;
+
+}
+#upgradeThree{
+	background-image: url("Bilder/upgCherry.svg");
+	background-size: 100%;
+
 }
 
 #powerUps{
+	/*border: 4px solid black; */
 
 }
 
@@ -90,8 +78,8 @@ article {
 	font-size: 6em;
 	width:450px;
 	height:450px;
-	background-color:white;
-	background-image: url("Bilder/LoggaV1.svg");
+	background-color:transparent;
+	background-image: url("Bilder/LoggaV2.svg");
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -101,6 +89,7 @@ article {
 
 #clickerbutton:active {
 	transition: border 1s;
+	
 }
 
 #clickerbutton:focus {
@@ -113,11 +102,7 @@ article {
 	text-transform: uppercase;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(51,51,51,0.8);
+#ledare {
+	margin-top: 10%;
+	background-color:darkgray;
 }
