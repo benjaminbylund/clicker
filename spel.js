@@ -43,7 +43,7 @@ upgradeButtonTwo.addEventListener("click", function() {
 		
 		zebra = setInterval(function(){
 			bank +=2;
-			scoreText.textContent = "Points " + bank;
+			scoreText.textContent = "Points: " + bank;
 		}, 1000);
 
 	}else {
@@ -63,7 +63,7 @@ upgradeButtonOne.addEventListener("click", function() {
 		
 		zebra = setInterval(function(){
 			bank +=2;
-			scoreText.textContent = "Points " + bank;
+			scoreText.textContent = "Points: " + bank;
 		}, 1000);
 
 	} else {
@@ -82,7 +82,7 @@ upgradeButtonThree.addEventListener("click", function() {
 		
 		zebra = setInterval(function(){
 			bank +=2;
-			scoreText.textContent = "Points " + bank;
+			scoreText.textContent = "Points: " + bank;
 		}, 1000);
 
 	} else {
