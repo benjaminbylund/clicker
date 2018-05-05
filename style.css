@@ -7,13 +7,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 62.5%;
 	background-color: darkgray;
-
+	cursor: url(bilder/fire.png), auto;
 }
 
 main {
 	width: 80%;
 	margin: 0 auto;
 	background-color: darkgray;
+	cursor: url(bilder/fire.png), auto;
 }
 
 h1, h2 {
@@ -83,7 +84,7 @@ article {
 	background-size: 100%;
 }
 #upgrade6{
-	background-image: url("bilder/");
+	background-image: url("bilder/tärningar.svg");
 	background-size: 100%;
 }
 
