@@ -1,3 +1,145 @@
+<<<<<<< HEAD
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
+	background-color: darkgray;
+
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	background-color: darkgray;
+}
+
+h1, h2 {
+	font-family: 'Lora', serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+p {
+	font-size: 2em;
+}
+
+
+article {
+	height: 100vh;
+	padding-bottom: 80px;
+}
+
+
+#game, #score{
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+
+#score {
+	font-size: 2em;
+}
+
+.knapps {
+	font-size: 2em;
+	width:150px;
+	height:150px; 
+	border-radius: 20px;
+	background-color: transparent;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#upgrade1{
+	background-image: url("bilder/upgBB.svg");
+	background-size: 100%;
+	
+}
+#upgrade2{
+	background-image: url("bilder/upgCross.svg");
+	background-size: 100%;
+
+}
+#upgrade3{
+	background-image: url("bilder/upgCherry.svg");
+	background-size: 100%;
+
+}
+#upgrade4{
+	background-image: url("bilder/grönDiamant.svg");
+	background-size: 100%;
+}
+#upgrade5{
+	background-image: url("bilder/lilaDiamant.svg");
+	background-size: 100%;
+}
+#upgrade6{
+	background-image: url("bilder/");
+	background-size: 100%;
+}
+
+#powerUpsRow1, #powerUpsRow2{
+	/*border: 4px solid black; */
+	text-align: center;
+}
+
+#powerUpCounter{
+	position: absolute;
+	margin-top: 10%;
+	font-size: 2em;
+	border: 2.5px solid black;
+}
+
+#clickerbutton {
+	font-size: 6em;
+	width:450px;
+	height:450px;
+	background-color:transparent;
+	background-image: url("bilder/cashStack.svg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 0;
+
+}
+#clickerbutton:active{
+	background-image: url("bilder/cash.svg");
+}
+
+
+#clickerbutton, #upgrade1, #upgrade2, #upgrade3,
+#upgrade4, #upgrade5, #upgrade6:hover {
+	cursor: url(bilder/click.png), auto; /* cursor is 128x128 */
+}
+
+#clickerbutton:active {
+	transition: border 1s;
+	
+}
+
+#clickerbutton:focus {
+	outline: 0px;
+}
+
+.logo {
+	font-size: 6em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#ledare {
+	margin-top: 10%;
+	background-color:darkgray;
+=======
 html {
 	font-size: 16px;
 }
@@ -114,4 +256,5 @@ article {
 #ledare {
 	margin-top: 10%;
 	background-color:darkgray;
+>>>>>>> 4e834ad72471e6b83bde30425f516a60624b5510
 }
